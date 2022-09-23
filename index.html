@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edie-Homepage-Master || devChallenges</title>
+    <!-- FAVICON -->
+    <link rel="shortcut icon" type="image/x-icon" href="./devchallenges.png" />
+    <!-- STYLESHEET -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- ICONS -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <div class="menu hidden">
+      <div class="menu__close-menu">
+        <img src="close_FILL0_wght400_GRAD0_opsz48.svg" alt="close menu" />
+      </div>
+      <div class="menu__main-menu">
+        <ul>
+          <li>Home</li>
+          <li>Services</li>
+          <li>Our Works</li>
+          <li>Clients</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <header class="header">
+        <div class="header__left-section">
+          <p>Edie</p>
+        </div>
+        <div class="header__right-section">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#our-works">Our Works</a></li>
+            <li><a href="#clients">Clients</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <div class="menu-box">
+            <img src="./icons/menu_FILL0_wght400_GRAD0_opsz48.svg" alt="menu" />
+          </div>
+        </div>
+      </header>
+      <!-- Hero section -->
+      <main class="hero" id="home">
+        <div>
+          <p class="hero__intro" data-aos="fade-in" data-aos-delay="200">Unhappy with your website?</p>
+          <h1 class="hero__heading" data-aos="fade-in" data-aos-delay="200">
+            We create beautiful and fast web services
+          </h1>
+        </div>
+        <img class="hero__img" src="./heroImage.jpg" alt="hero image" data-aos="fade-up" data-aos-delay="300" />
+        <div>
+          <h2 class="hero__heading" data-aos="slide-right">Story, emotion and purpose</h2>
+          <p class="hero__text" data-aos="zoom-in">
+            We help transform your ideas into real world applications that will outperform your toughest competition and
+            help you achieve your strategic goals in short period of time.
+          </p>
+          <form action="#" data-aos="zoom-in">
+            <label for="email">Want us to contact you?</label>
+            <div>
+              <input type="email" name="email" id="email" placeholder="Email" />
+              <button type="button">Join</button>
+            </div>
+          </form>
+        </div>
+      </main>
+      <!-- Cards section -->
+      <section class="cards-section" id="services">
+        <h2 data-aos="slide-right">We offer high demand services</h2>
+        <div class="cards-container">
+          <div class="card" data-aos="zoom-in" data-aos-delay="500">
+            <span class="card__logo--bg-blue">
+              <img class="card__logo" src="./icons/edit_FILL0_wght400_GRAD0_opsz48.svg" alt="edit icon" />
+            </span>
+            <p class="card__title">UI/UX Design</p>
+            <p class="card__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis
+              turpis.
+            </p>
+            <button class="card__cta">Get started</button>
+          </div>
+
+          <div class="card" data-aos="zoom-in" data-aos-delay="500">
+            <span class="card__logo--bg-green">
+              <img class="card__logo" src="./icons/code_FILL0_wght400_GRAD0_opsz48.svg" alt="code icon" />
+            </span>
+            <p class="card__title">Front End</p>
+            <p class="card__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis
+              turpis.
+            </p>
+            <button class="card__cta">Get started</button>
+          </div>
+
+          <div class="card" data-aos="zoom-in" data-aos-delay="500">
+            <span class="card__logo--bg-red">
+              <img class="card__logo" src="./icons/storage_FILL0_wght400_GRAD0_opsz48.svg" alt="storage icon" />
+            </span>
+            <p class="card__title">Back End</p>
+            <p class="card__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis
+              turpis.
+            </p>
+            <button class="card__cta">Get started</button>
+          </div>
+        </div>
+      </section>
+      <!-- Projects section -->
+      <section class="projects-section">
+        <h2 data-aos="slide-up">Good design means good business</h2>
+        <div class="projects-section__projects">
+          <div
+            data-aos="slide-up"
+            data-aos-delay="500"
+            class="projects-section__project projects-section__project--one"
+          >
+            <img src="./smarthome.jpg" alt="smarthome project" />
+            <p>Full stack application</p>
+            <p>Smart home dashboard</p>
+          </div>
+          <div data-aos="slide-up" data-aos-delay="500" class="projects-section__project">
+            <img src="./onboard.png" alt="onboard app project" />
+            <p>UX/UI design</p>
+            <p>Onboard application</p>
+          </div>
+          <div
+            data-aos="slide-up"
+            data-aos-delay="500"
+            class="projects-section__project projects-section__project--one"
+          >
+            <img src="./booking.png" alt="booking app project" />
+            <p>Mobile application</p>
+            <p>Booking system</p>
+          </div>
+          <div data-aos="slide-up" data-aos-delay="500" class="projects-section__project">
+            <img src="./juice-product.png" alt="juice product project" />
+            <p>Front End application</p>
+            <p>Juice product homepage</p>
+          </div>
+        </div>
+        <!-- some arrow should be in a span here -->
+        <p data-aos="slide-left" class="projects-section__see-more">see more</p>
+      </section>
+      <!-- Meet-The-Team section -->
+      <section class="team-section">
+        <div data-aos-delay="800" class="team-section-1">
+          <p data-aos="slide-up">Meet the team</p>
+          <h2 data-aos="slide-up">We are chilled and a laidback team</h2>
+          <p data-aos="slide-up">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+        <div class="team-section-2">
+          <div class="team-section-2__first">
+            <img data-aos="slide-right" src="./person3.png" alt="team member" />
+          </div>
+          <div class="team-section-2__second">
+            <div>
+              <img data-aos="slide-left" class="person-1" src="./person1.png" alt="team member" />
+            </div>
+            <div>
+              <img data-aos="slide-left" class="person-2" src="./person2.png" alt="team member" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Testimonial Section -->
+      <section class="testimonial-section">
+        <p data-aos="slide-up" class="testimonial-section__testimonial">
+          “Fast and outstanding results. Edie understands their customer’s needs. They have a young and talented team.”
+        </p>
+        <div class="testimonial-section__info-box">
+          <div><img data-aos="slide-right" src="./person4.png" alt="testimonial image" /></div>
+          <div data-aos="slide-left">
+            <p>Carlos Tran</p>
+            <p>The Decorate Gatsby</p>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- Footer  Section-->
+    <footer>
+      <div class="main-container">
+        <div class="main-container__first">
+          <p data-aos="slide-up">Home</p>
+          <p data-aos="slide-up">Services</p>
+          <p data-aos="slide-up">Our Works</p>
+          <p data-aos="slide-up">Clients</p>
+          <p data-aos="slide-up">Contact</p>
+        </div>
+        <div class="main-container__second">
+          <p data-aos="slide-right">Edie</p>
+          <div data-aos="slide-left" class="main-container__second__icons-container">
+            <div><img src="./icons-social/instagram.svg" alt="instagram icon" /></div>
+            <div><img src="./icons-social/linkedin.svg" alt="linkedin icon" /></div>
+            <div><img src="./icons-social/twitter.svg" alt="twitter icon" /></div>
+          </div>
+        </div>
+        <form data-aos="slide-up" action="#">
+          <label for="email-2">Want us to contact you?</label>
+          <div>
+            <input type="email" name="email" id="email-2" placeholder="Email" />
+            <button type="button">Join</button>
+          </div>
+        </form>
+      </div>
+      <div class="footer-text-container">
+        <p>created by <a href="http://www.twitter.com/presh_031">presh-031</a> - devChallenges.io</p>
+      </div>
+    </footer>
+    <script src="menu.js"></script>
+    <!-- AOS Script -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
