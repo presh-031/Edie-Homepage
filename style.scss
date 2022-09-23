@@ -30,7 +30,7 @@ body {
     flex-direction: row-reverse;
     img {
       cursor: pointer;
-      width: 5rem;
+      // width: 5rem;
     }
   }
   &__main-menu {
@@ -42,13 +42,16 @@ body {
       list-style-type: none;
       li {
         margin-bottom: 1rem;
+
         cursor: pointer;
+        a {
+          text-decoration: none;
+          color: inherit;
+        }
       }
       li:hover {
-        font-weight: 800;
         text-decoration: underline;
         text-underline-offset: 8px;
-        transition: font-weight 0.8s;
       }
     }
   }
